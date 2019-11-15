@@ -17,13 +17,6 @@ app.get("/venus", function(req, res){
     res.render("venus.html");
 });
 
-/*CLOUD 9 CONFIG
-//server listner
-app.listen("8080", "127.0.0.1", function(){
-    console.log("Express Server is Running...");
-});
-*/
-
 //HEROKU CONFIG
 //listner
 app.listen(process.env.PORT, process.env.IP, function(){
