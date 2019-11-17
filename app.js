@@ -26,13 +26,13 @@ app.get("/mars", function(req, res){
 });
 
 //CLOUD 9 CONFIG
-app.listen("8080", "127.0.0.1", function(){
-    console.log("Express Server is Running...");
-});
+//app.listen("8080", "127.0.0.1", function(){
+//    console.log("Express Server is Running...");
+//});
 
 //HEROKU CONFIG
 //listner
-//app.listen(process.env.PORT, process.env.IP, function(){
-//    console.log("Running Express Server...");
-//});
+app.listen(process.env.PORT, process.env.IP, function(){
+    console.log("Running Express Server...");
+});
 
