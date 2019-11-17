@@ -1,6 +1,36 @@
 body {
-    background: lightgray;
-    text-align: center;
+    background: black;
     color: white;
 }
 
+footer {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h8 {
+    color: yellow;
+}
+
+nav{
+    padding-bottom: 15px;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;             
+}
+
+nav a:hover {
+    border-bottom: 2px yellow solid;
+    font-size: 2em;
+    transition: .9s;
+    text-decoration: none;
+    color: yellow;
+}
